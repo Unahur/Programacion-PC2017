@@ -1,0 +1,32 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+google_play_assets/
+apple_assets/
+showcase/
+
+node_modules/
+platforms/
+plugins/
+hooks/after_prepare/030_clean_dev_files_from_platforms.js
+hooks/after_prepare/040_move_dist_files_to_platforms.js
+hooks/after_prepare/050_clean_obfuscation.js
+hooks/after_prepare/060_add_platform_class.js
+tmp/
+dist/
+www/dist/
+www/fonts/
+.DS_Store
+www/js/templates.js
+www/js/views.js
+www/css/ionic.app.min.css
+www/css/ionic.app.css
+www/lib/
+www/js/tracking-config.js
+
+envato/
+RELEASE/
+UPLOAD/
+scss_copy/
+gulp-tasks/distribution.copy.js
+APK/
