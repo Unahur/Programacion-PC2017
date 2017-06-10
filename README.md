@@ -1,12 +1,14 @@
-## Welcome to GitHub Pages
+## Bienvenidos al proyecto de Programación PC 2017
 
-You can use the [editor on GitHub](https://github.com/Unahur/Programacion-PC2017/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Acerca de Markdown
 
-### Markdown
+Podemos usar el [editor on GitHub](https://github.com/Unahur/Programacion-PC2017/edit/master/README.md) para mantener y previsualizar el contenido de nuestro sitio web en archivos Markdown.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+También podemos subir archivos a este repositorio, GitHub Pages correrá [Jekyll](https://jekyllrb.com/) para reconstruir las páginas de nuestro sitio, desde el contenido de nuestros archivos Markdown.
+
+
+Markdown es una sintaxis liviana y facil de usar para dar estilo a tu código. Incluye convención para:
 
 ```markdown
 Syntax highlighted code block
@@ -26,7 +28,7 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Para más detalle, mirar: [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
