@@ -1,0 +1,21 @@
+<html>
+<body background="https://previews.123rf.com/images/maxkabakov/maxkabakov1303/maxkabakov130300419/18629583-Privacy-concept-pixelated-Opened-Padlock-icon-on-digital-background-empty-copyspace-for-card-text-ad-Stock-Photo.jpg">
+
+<head>
+<title>Bienvenido</title>
+
+<script>
+function usrpas(){
+if (document.form1.txt.value=="admin" && document.form1.num.value=="1234" || document.form1.txt.value=="usuario" && document.form1.num.value=="1234" || document.form1.txt.value=="backup" && document.form1.num.value=="1234"){window.location="IP DEL WIFI.htm"}
+ 
+else {alert("Error en Usuario o Contraseña. Intenta de nuevo.")}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+ 
+<form name="form1">
+<H1 align="center"><input type="text" name="txt"> <p style="color:#FF0000";>Usuario</p> (admin o usuarioo backup)<br></H1>
+<H1 align="center"><input type="password" name="num"> <p style="color:#FF0000";>Contraseña</p> (1234)<br></H1>
+<H1 align="center"><input type="button" value="Entrar" onclick="usrpas()"></H1>
+</form>
+</html>
