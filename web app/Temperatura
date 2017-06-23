@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Informacion Temperatura</title>
+</head>
+<body>
+<BODY BACKGROUND="http://cdn.tn.com.ar/sites/default/files/styles/1366x765/public/2016/12/01/aire_acondicionado_24.jpg">
+<script>
+var temp=24;
+function incrementar() {
+if(temp==37)
+alert('Maxima Temperatura: 37');
+else {
+temp++;
+alert("Temperatura:"+temp);} 
+}
+function decrementar() {
+if(temp==0)
+alert('Minima Temperatura: 0');
+else {
+temp--;
+alert("Temperatura:"+temp);}
+}
+</script>
+
+<form>
+<input type="button" onClick="incrementar()" value="+"> 
+<p style="color:#FF0000";>Temperatura</p> <br></H1>
+<input type="button" onClick="decrementar()" value="-"> 
+</form>
+</html>
